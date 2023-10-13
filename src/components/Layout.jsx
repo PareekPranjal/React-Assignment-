@@ -5,7 +5,7 @@ import Header from './Header';
 
 function Layout() {
   return (
-    <div className='flex flex-row bg-neutral-100 h-screen w-[100%]' >
+    <div className='flex flex-row bg-neutral-100 w-[100%]' >
       <Sidebar />
       <div className='w-[100%] mt-8 xs:mt-8 md:mt-16 sm:mt-8 lg:mt-0 xl:mt-0 2xl:mt-0 p-4'>
         <Header />
