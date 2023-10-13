@@ -42,7 +42,7 @@ const menuProps = {
 
 function TransastionHistory() {
   return (
-   <div className='flex flex-nowrap justify-between w-[100%] border-2'>
+   <div className='flex flex-nowrap justify-between w-[100%] '>
      <div>
       <div>
       <h1 className='text-3xl p-4'>Transastion History</h1>

@@ -5,8 +5,8 @@ function MeetingCard() {
     return (
         <div>
 
-            <div className='flex gap-6 border-b border-gray-400 pb-2 pt-2'>
-                <div className='bg-gray-300 inline-block rounded-full'>
+            <div className='flex gap-6 border-b border-gray-300 pb-2 pt-2'>
+                <div className='bg-gray-200 inline-block rounded-full'>
                     <img width='30px' height='30px' className='m-4' src="https://png.pngtree.com/png-vector/20230218/ourmid/pngtree-laptop-icon-png-image_6606927.png" alt="" />
                 </div>
                 <div>
@@ -18,8 +18,8 @@ function MeetingCard() {
                 </div>
             </div>
 
-            <div className='flex gap-9 border-b border-gray-400 pb-2 pt-2'>
-                <div className='bg-gray-300 inline-block rounded-full'>
+            <div className='flex gap-9 border-b border-gray-300 pb-2 pt-2'>
+                <div className='bg-gray-200 inline-block rounded-full'>
                     <img width='30px' height='30px' className='m-4' src="https://png.pngtree.com/png-vector/20230218/ourmid/pngtree-laptop-icon-png-image_6606927.png" alt="" />
                 </div>
                 <div>
@@ -32,7 +32,7 @@ function MeetingCard() {
             </div>
 
             <div className='flex gap-6 pt-2'>
-                <div className='bg-gray-300 inline-block rounded-full'>
+                <div className='bg-gray-200 inline-block rounded-full'>
                     <img width='30px' height='30px' className='m-4' src="https://png.pngtree.com/png-vector/20230218/ourmid/pngtree-laptop-icon-png-image_6606927.png" alt="" />
                 </div>
                 <div>

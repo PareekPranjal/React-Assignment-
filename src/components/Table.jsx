@@ -16,7 +16,7 @@ const data = [
   {
     name: 'Jane Smith',
     email: 'jane.smith@example.com',
-    status: 'Completed',
+    status: 'Pending',
     date: '2023-10-09',
     invoice: 'INV002',
     people: [
@@ -30,7 +30,7 @@ const data = [
 function TransastionHistory() {
   return (
     <div className="overflow-x-auto w-[100%] ">
-    <table className="min-w-full border-b border-gray-400 "> 
+    <table className="min-w-full border-b border-gray-300 "> 
       <thead>
         <tr>
           <th className="py-2 px-4 border-b">Customer</th>
@@ -52,11 +52,11 @@ function TransastionHistory() {
                 </div>
               </div>
             </td>
-            <td className="py-2 px-4 w-7 h-3 rounded-full ">{row.status}</td>
+            <td className="py-2 px-4 w-7 h-3  rounded-full ">{row.status}</td>
             <td className="py-2 px-4 border-b">{row.date}</td>
             <td className="py-2 px-4 border-b">{row.invoice}</td>
             <td className="py-2 px-4 border-b relative">
-              {row.people.slice(0, 2).map((person, idx) => (
+              {row.people.slice(2, 1).map((person, idx) => (
                 <div
                   key={idx}
                   className={`w-8 h-8 rounded-full bg-blue-500 border  absolute ${

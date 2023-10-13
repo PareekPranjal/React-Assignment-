@@ -3,7 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 
 export default function TransactionChart() {
   return (
-    <div className="w-[100%] mx-auto border border-gray-400 rounded-2xl overflow-hidden flex flex-wrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap">
+    <div className="w-[100%] mx-auto border pt-5 border-gray-400 rounded-2xl overflow-hidden flex flex-wrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap">
       <div className="p-8">
         <div className="mb-4">
           <p className="text-xl font-semibold">Total Sales & Cost</p>
@@ -30,7 +30,6 @@ export default function TransactionChart() {
           >
             <XAxis dataKey="name" />
             <YAxis />
-            <CartesianGrid strokeDasharray="3 3" />
             <Tooltip />
             <Bar dataKey="sales" fill="#6e62e5" />
             <Bar dataKey="cost" fill="#a299d6" className='rounded-xl' />
