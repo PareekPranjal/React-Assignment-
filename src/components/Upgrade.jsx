@@ -56,7 +56,7 @@ function Upgrade() {
           <span className='block md:inline-block pt-3'>Control</span>
         </h1>
         <div className='text-center md:text-left mt-4'>
-          <Dropdown overlay={menuProps} className='border-none'>
+          <Dropdown menu={{ items, }} overlay={menuProps} className='border-none'>
             <Button>
               <Space className='text-gray-400 p-2 md:p-1 w-[7rem] rounded-md'>
                 The Professional Platform
@@ -69,7 +69,7 @@ function Upgrade() {
       <div className="mt-6">
         <button className="text-xl border border-gray-400 text-[#6e62e5] py-2 px-4 w-full rounded-md flex items-center justify-center">
           <span className='float-left'>Upgrade Now</span>
-          <svg 
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 ml-2 float-right"
             fill="none"
